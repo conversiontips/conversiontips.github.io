@@ -1691,7 +1691,7 @@
 	}
 
 	h1 {
-		font-size: 2.75em;
+		font-size: 2.25em;
 		font-weight: 700;
 		line-height: 1.3;
 		margin: 0 0 1em 0;
@@ -1737,6 +1737,9 @@
 
 	h3 {
 		font-size: 1em;
+        text-transform: none;
+        font-family: sans-serif;
+        letter-spacing: normal;
 	}
 
 	h4 {
@@ -1745,6 +1748,10 @@
 
 	h5 {
 		font-size: 0.8em;
+        font-weight: 600;
+        text-transform: none;
+        font-family: sans-serif;
+        letter-spacing: normal;
 	}
 
 	h6 {
@@ -2603,9 +2610,9 @@
 			width: calc(33.33333% - 2.5em);
 			margin: 2.5em 0 0 2.5em;
 		}
-        #lower
+        #color
 {
-    width: calc(50% - 2.5em)!important;
+    margin-left: 20% !important;
 }
 
 			.tiles article > .image {
@@ -2806,6 +2813,7 @@
 					margin: 1.25em 0 0 1.25em;
 				}
 
+
 		}
 
 		@media screen and (max-width: 980px) {
@@ -2818,6 +2826,14 @@
 					width: calc(50% - 2.5em);
 					margin: 2.5em 0 0 2.5em;
 				}
+                    #color
+                {
+                    margin-left: 2.5em !important;
+                }
+            #typography
+            {
+                margin-left: 30%;
+            }
 
 		}
 
@@ -2838,6 +2854,14 @@
 						-ms-transform: scale(1.0);
 						transform: scale(1.0);
 					}
+                                #color
+                {
+                    margin-left: 1.25em !important;
+                }
+            #typography
+            {
+                margin-left: 30%;
+            }
 
 		}
 
@@ -2851,8 +2875,17 @@
 					width: 100%;
 					margin: 1.25em 0 0 0;
 				}
+                #color
+                {
+                    margin-left: 0 !important;
+                }
+            #typography
+            {
+                margin-left: 0;
+            }
 
 		}
+                
 
 /* Header */
 
