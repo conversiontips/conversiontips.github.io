@@ -2610,10 +2610,7 @@
 			width: calc(33.33333% - 2.5em);
 			margin: 2.5em 0 0 2.5em;
 		}
-        #color
-{
-    margin-left: 20% !important;
-}
+
 
 			.tiles article > .image {
 				-moz-transition: -moz-transform 0.5s ease;
@@ -2826,14 +2823,8 @@
 					width: calc(50% - 2.5em);
 					margin: 2.5em 0 0 2.5em;
 				}
-                    #color
-                {
-                    margin-left: 2.5em !important;
-                }
-            #typography
-            {
-                margin-left: 30%;
-            }
+
+
 
 		}
 
@@ -2854,14 +2845,8 @@
 						-ms-transform: scale(1.0);
 						transform: scale(1.0);
 					}
-                                #color
-                {
-                    margin-left: 1.25em !important;
-                }
-            #typography
-            {
-                margin-left: 30%;
-            }
+
+
 
 		}
 
@@ -2875,14 +2860,8 @@
 					width: 100%;
 					margin: 1.25em 0 0 0;
 				}
-                #color
-                {
-                    margin-left: 0 !important;
-                }
-            #typography
-            {
-                margin-left: 0;
-            }
+
+
 
 		}
                 
